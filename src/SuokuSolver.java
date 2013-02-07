@@ -9,12 +9,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class SuDoKuSolver {
+public class SuokuSolver {
 	public static int SolutionsCounter =0;
     public static final int PuzzleSize=9;
     private  int[][] Puzzle;
     
-    public SuDoKuSolver()
+    public SuokuSolver()
     {
     	Puzzle = new int[PuzzleSize][PuzzleSize];					//Create a grid with specific size
     }
@@ -23,7 +23,7 @@ public class SuDoKuSolver {
     	
     	
     	
-    	SuDoKuSolver s = new SuDoKuSolver();
+    	SuokuSolver s = new SuokuSolver();
     	
     	System.out.print("Please enter the path for the input file:");
     	//creating a reader to read the path from the user
